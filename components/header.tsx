@@ -22,9 +22,9 @@ export function Header() {
               <span className="text-white font-bold text-sm">💰</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">
+              <h2 className="text-xl font-bold text-gray-900">
                 BLOODMONEY
-              </h1>
+              </h2>
               <p className="text-xs text-gray-500">ONLINE</p>
             </div>
           </div>
