@@ -4,21 +4,21 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bloodmoney-game.online'
 const measurementId = process.env.NEXT_PUBLIC_GA_ID || 'G-2RMQG65RGH'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.bloodmoney-game.online/',
   },
   title: 'Blood Money Game - Official Site & Play Online',
   description: 'Blood Money is more than just a clicker. It’s a haunting psychological experience where every action comes at a price – both in money and in conscience.',
   keywords: 'Blood Money, game, survival, moral choices, indie game',
   authors: [{ name: 'Blood Money Game Studio' }],
   icons: {
-    icon: '/icon.svg',
-    shortcut: '/icon.svg',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
   },
   openGraph: {
     title: 'Blood Money Game - Official Site & Play Online',
