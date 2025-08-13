@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+const measurementId = process.env.NEXT_PUBLIC_GA_ID || 'G-2RMQG65RGH'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -55,6 +57,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);} 
+            gtag('js', new Date());
+            gtag('config', '${measurementId}');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>
         {children}
       </body>
