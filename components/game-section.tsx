@@ -23,27 +23,33 @@ export function GameSection() {
           </div>
         </div>
 
-        {/* Key Traits */}
+        {/* Core Gameplay Steps */}
+        <div className="text-center mb-6">
+          <h2 className="text-2xl font-bold text-gray-900">Explore Core Gameplay Steps</h2>
+          <p className="text-gray-600 text-sm mt-2">
+            Follow these basics to understand BLOODMONEY!'s main mechanics before diving in.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="text-center p-6 bg-white rounded-lg border border-gray-200">
-            <div className="text-2xl mb-2">⚖️</div>
-            <h3 className="text-base font-semibold text-gray-900 mb-1">Moral Choices · Multiple Endings</h3>
-            <p className="text-gray-600 text-sm">Every click has a price. Face the question: how far will you go to survive?</p>
+            <div className="text-2xl mb-2">💥</div>
+            <h3 className="text-base font-semibold text-gray-900 mb-1">Attack Harvey · Earn Money</h3>
+            <p className="text-gray-600 text-sm">Keep attacking Harvey to make cash as the dark humor and on‑screen chaos escalate.</p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg border border-gray-200">
-            <div className="text-2xl mb-2">👆</div>
-            <h3 className="text-base font-semibold text-gray-900 mb-1">One‑Input · Fully Captioned</h3>
-            <p className="text-gray-600 text-sm">Extremely simple input with complete captions—easy to play without losing emotional depth.</p>
+            <div className="text-2xl mb-2">💸</div>
+            <h3 className="text-base font-semibold text-gray-900 mb-1">Buy Upgrades · Multiply Profits</h3>
+            <p className="text-gray-600 text-sm">Purchase increasingly brutal upgrades that intensify suffering while boosting profits.</p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg border border-gray-200">
-            <div className="text-2xl mb-2">🎨</div>
-            <h3 className="text-base font-semibold text-gray-900 mb-1">Soft Pixel Art · Stark Contrast</h3>
-            <p className="text-gray-600 text-sm">Pastel visuals contrast with a dark theme, amplifying moral tension.</p>
+            <div className="text-2xl mb-2">🧠</div>
+            <h3 className="text-base font-semibold text-gray-900 mb-1">Manage Strategy · Maximize Earnings</h3>
+            <p className="text-gray-600 text-sm">Balance upgrades to optimize income and watch Harvey’s bizarre transformation compound.</p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg border border-gray-200">
-            <div className="text-2xl mb-2">🎵</div>
-            <h3 className="text-base font-semibold text-gray-900 mb-1">Emotional Score · Compact Impact</h3>
-            <p className="text-gray-600 text-sm">Original tracks (e.g., “Make It Worth It”). About 30 minutes—short yet unforgettable.</p>
+            <div className="text-2xl mb-2">🔓</div>
+            <h3 className="text-base font-semibold text-gray-900 mb-1">Unlock Endings · Shape Fate</h3>
+            <p className="text-gray-600 text-sm">Your upgrade path unlocks unique endings—Good, Bad, or Normal—based on your choices.</p>
           </div>
         </div>
       </div>

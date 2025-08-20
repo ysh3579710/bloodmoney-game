@@ -8,7 +8,7 @@ export function Header() {
 
   const navigation = [
     { name: 'Game', href: '#game' },
-    { name: 'How to Play', href: '#how-to-play' },
+    { name: 'How to Play', href: '#about' },
     { name: 'FAQ', href: '#faq' },
   ]
 
