@@ -68,7 +68,7 @@ export default function RootLayout({
           id="adsbygoogle-init"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5738971320066006"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">
           {`
